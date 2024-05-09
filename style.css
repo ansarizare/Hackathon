@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(248, 217, 158) ;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: right;
+}
+.logo-text{
+    display: flex;
+    background-color:rgb(248, 217, 158) ;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px; justify-content: space-between;
+    align-items: center;
+}
+.logo-text h1,
+.logo-text p,
+.logo-text button {
+    max-width: 100%;
+}
+.item{
+    width: 300px;
+    mix-blend-mode: multiply;
+    padding: 20px;
+}
+.logo-text img {
+    max-width: 100%;
+    height: auto;
+}
